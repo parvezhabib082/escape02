@@ -1,0 +1,514 @@
+body{
+	font-family: BrandonRegular;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid white;*/
+}
+.header_top{
+padding: 50px 0;
+}
+.logo{
+    font-family: fantasy;
+    font-size: 30px;
+    /* border: 1px solid red; */
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 50px;
+    letter-spacing: 3px;
+}
+.logo img{
+position: absolute;
+    left: 0;
+    top: 6px;
+}
+.menu{
+    /*border: 1px solid red;*/
+    width: 60%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.menu ul li{
+float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 35px;
+    transition: .4s;
+}
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BEBBBF;
+}
+.header_text{
+text-align: center;
+    padding: 130px 0;
+}
+.header_text h3{
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #BEBBBF;
+    margin: 0;
+}
+.header_text h1{
+   font-family: sans-serif;
+    font-size: 66px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.more_btn{
+    text-align: center;
+    margin-top:  75px;
+}
+.more_btn button{
+    font-family: sans-serif;
+    font-size: 23px;
+    border-style: none;
+    padding: 20px 66px;
+    border: 3px solid #BEBBBF;
+    background: transparent;
+    color: white;
+    transition: all .3s;
+}
+.more_btn button:hover{
+	background-color:#BEBBBF;
+	color:gray;
+
+}
+/*development start*/
+.development{
+padding: 70px 0;
+}
+.deve_text{
+width: 65%;
+float: left;
+}
+.deve_text h1, .ide_text h1 {
+	font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+.bold{
+font-weight: 700;
+}
+.deve_text p, .ide_text p {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #777777;
+    line-height: 28px;
+}
+
+.deve_img{
+width: 25%;
+float: right;
+padding-top: 40px;
+}
+.deve_img img{
+width: 100%;
+}
+/*development end*/
+/*identity start*/
+.identity{
+    padding: 60px 0;
+    background: #FAFAFA;
+}
+.ide_img{
+	width: 25%;
+    float:left;
+    padding-top: 55px;
+}
+
+.ide_img img{
+	width: 100%;
+}
+.ide_text{
+	width: 65%;
+	 float:right;
+}
+/*identity end*/
+/*service start*/
+.service{
+padding: 40px 0;
+}
+.service_single{
+width: 50%;
+float: left;
+box-sizing: border-box;
+padding: 23px;
+}
+.ser_img{
+	width: 20%;
+    /* border: 1px solid black; */
+    padding: 8px;
+    margin-right: 10px;
+    overflow: hidden;
+    float: left;
+}
+.ser_img img{
+width: 100%;
+}
+.ser_text{
+    width: 72%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.ser_text h1{
+	font-family: sans-serif;
+    font-size: 22px;
+    margin: 0;
+}
+.ser_text p{
+    margin: 9px 0 0 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+/*service end*/
+/*Client section start*/
+.clients{
+	background: #FAFAFA;
+    padding: 60px 0;
+}
+.client_awesome{
+text-align: center;
+    padding: 50px 0;
+}
+.client_awesome h1{
+	    font-family: sans-serif;
+    font-size: 60px;
+    margin: 0;
+    line-height: 60px;
+    font-weight: 400;
+}
+.bold1{
+font-weight: 600;
+}
+.client_awesome p{
+    font-size: 22px;
+    margin: 15px 0 0 0;
+    font-family: sans-serif;
+}
+.client_single{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.client_img_left{
+width: 20%;
+float: left;
+margin-top: 20px;
+}
+.client_img_left img{
+width: 100%;
+}
+.client_text_right{
+    width: 70%;
+    float: right;
+    background: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+}
+.client_text_right h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 37px;
+    color: #777777;
+}
+.client_text_right h2{
+font-family: sans-serif;
+    font-weight: 400;
+    color: #7690c5;
+}
+.client_text_left{
+width: 70%;
+    float: left;
+    background: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+}
+.client_text_left h1{
+	 font-family: sans-serif;
+    font-weight: 400;
+    line-height: 37px;
+    color: #777777;
+}
+.client_text_left h2{
+	font-family: sans-serif;
+    font-weight: 400;
+    color: #7690c5;
+}
+.client_img_right{
+width: 20%;
+float: right;
+margin-top: 20px;
+}
+.client_img_right img{
+	width: 100%;
+}
+/*Client section end*/
+/*work_with*/
+.work_with{
+	padding: 60px 0;
+}
+.work_with ul{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.work_with ul li{
+	float: left;
+    display: block;
+    padding: 10px 37px;
+}
+.work_with ul li img{
+	width: 100%;
+}
+/*work_with*/
+/*team start*/
+.team{
+	background-color: #111111;
+	padding: 30px 0;
+}
+.color1{
+	color: white;
+}
+.team_member{
+overflow: hidden;
+}
+.member{
+float: left;
+width: 33%;
+overflow: hidden;
+}
+.mem_image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+}
+.mem_image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.mem_info{
+text-align: center;
+}
+.member_name{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin: 20px 0 0;
+}
+.member_position{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+    color: white;
+}
+.member_social{
+    overflow: hidden;
+    /*width: 16%;*/
+   margin: 21px 80px;
+}
+.member_social ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.member_social ul li{
+    float: left;
+    margin-right: 6%;
+}
+.member_social ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 39px;
+    display: block;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition: all .4s;
+    
+}
+.twitter:hover {
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+.pinterest:hover{
+	color: #C62B27;
+    border-color: #C62B27;
+}
+.facebook:hover{
+	color: #375096;
+    border-color: #375096;
+}
+.team_footer{
+}
+.team_footer p{
+    width: 61%;
+    margin: 25px auto;
+    text-align: center;
+    color: white;
+}
+/*team end*/
+/*contact*/
+.contact{
+	background-color: #7690C5;
+	color: white;
+	padding: 70px 0;
+}
+.contact_info{
+overflow: hidden;
+    width: 100%;
+    /*border: 1px solid red;*/
+    margin: 1% 0;
+}
+.contact_with{
+	width: 49%;
+	float: left;
+}
+.contact_heading{
+
+}
+.contact_heading p{
+	font-size: 17px;
+    font-family: sans-serif;
+}
+.contact_heading h1{
+	font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.contact_informaton{
+/*border: 1px solid;*/
+overflow: hidden;
+display: flex;
+
+}
+.contact_informaton_left{
+	width: 50%;
+
+}
+.contact_informaton_right{
+   width: 50%;
+}
+.single01{
+	font-size: 18px;
+    width: 100%;
+    float: left;
+    /*border: 1px solid;*/
+    /*box-sizing: border-box;*/
+    /*padding: 10px;*/
+}
+.single01 i{
+  margin-right: 10px;
+}
+.single01 p{
+	padding: 8% 0;
+	font-family: sans-serif;
+}
+.single02{
+	font-size: 18px;
+    width: 100%;
+    float: left;
+    /*border: 1px solid;*/
+    margin-left: 12%;
+}
+.single02 i{
+ margin-right: 10px;
+}
+.single02 p{
+ padding: 8% 0;
+ font-family: sans-serif;
+}
+.contact_form{
+    width: 49%;
+    float: right;
+    box-sizing: border-box;
+     /*border: 1px solid;*/
+}
+form{
+	display: block;
+    margin-top: 0em;
+}
+.name_input{
+    width: 91%;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 10px 0;
+    border: none;
+}
+.email_input{
+    width: 91%;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 10px 0;
+    border: none;
+}
+#comments{
+    padding: 10px 20px;
+    font-size: 22px;
+    width: 91%;
+    border-radius: 7px;
+    margin: 10px 0;
+    border: none;
+}
+/*contact*/
+/*footer*/
+footer{
+background: #7690C5;
+}
+footer .container {
+    border-top: 1px solid #87A0D2;
+    padding: 10px 0;
+}
+.fo_content{
+	text-align: center;
+}
+.fo_content p{
+	font-family: sans-serif;
+    color: white;
+}
+/*footer*/
